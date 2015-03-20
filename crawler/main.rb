@@ -25,9 +25,9 @@ DB = Sequel.connect('mysql2://root@localhost/500px')
       image_url: photo["image_url"][1],
     }
     begin
-      DB["photos"].insert(photo_data)
+      DB[:photos].insert(photo_data)
     rescue => e
-      puts "#{e.class}: #{e.description}"
+      puts "#{e.class}: #{e}"
     end
   end
 end
