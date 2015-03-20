@@ -1,0 +1,14 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    curb (0.8.6)
+    mysql2 (0.3.18)
+    sequel (4.20.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  curb
+  mysql2
+  sequel
